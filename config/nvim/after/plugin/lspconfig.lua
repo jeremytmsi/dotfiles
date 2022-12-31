@@ -48,3 +48,6 @@ protocol.CompletionItemKind = {
   'ﬦ', -- Operator
   '', -- TypeParameter
 }
+
+lspconfig.pylsp.setup {
+}

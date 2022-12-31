@@ -6,4 +6,5 @@ return require('packer').startup(function(use)
  use 'arcticicestudio/nord-vim' -- Theme
 
  use 'neovim/nvim-lspconfig'
+ use 'williamboman/mason.nvim'
 end)
