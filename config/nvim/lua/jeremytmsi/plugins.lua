@@ -7,4 +7,5 @@ return require('packer').startup(function(use)
 
  use 'neovim/nvim-lspconfig'
  use 'williamboman/mason.nvim'
+ use 'glepnir/lspsaga.nvim'
 end)
