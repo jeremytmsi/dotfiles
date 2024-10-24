@@ -10,6 +10,7 @@ input "type:keyboard" {
 
 exec autotiling &
 exec gentoo-pipewire-launcher restart &
+exec waybar -c ~/.config/waybar/waybar.json
 
 default_border none
 smart_gaps on

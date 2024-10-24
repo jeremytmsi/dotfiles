@@ -1,0 +1,15 @@
+{
+  "layer": "top",
+  "height": 35,
+  "modules-left": ["sway/workspaces"],
+  "modules-center": ["mpris"],
+  "modules-right": ["wireplumber","network","battery","clock"],
+
+  "network": {
+    "format-wifi": "{essid} ({ipaddr}/{cidr})"
+  },
+
+  "mpris": {
+    "format": "{player_icon} {title} - {artist}"
+  }
+}
