@@ -14,3 +14,19 @@ map("n","<Tab>","<Cmd>BufferLineCycleNext<CR>")
 
 -- Switch to previous tab
 map("n","<S-Tab>","<Cmd>BufferLineCyclePrev<CR>")
+
+-- Telescope find files
+map("n",";f",function()
+  require("telescope.builtin").find_files()
+end)
+
+-- Telescope file browser
+map("n","sf",function()
+  require("telescope").extensions.file_browser.file_browser({
+    path = "%:p:h",
+    respect_gitignore = false,
+    hidden = true,
+    initial_mode = "normal",
+    previewer = false
+  })
+end)
