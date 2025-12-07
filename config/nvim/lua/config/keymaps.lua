@@ -8,3 +8,9 @@ map("n","dw",'vb"_d')
 
 -- Create a new tab
 map("n","te",":tabedit<Return>")
+
+-- Switch to next tab
+map("n","<Tab>","<Cmd>BufferLineCycleNext<CR>")
+
+-- Switch to previous tab
+map("n","<S-Tab>","<Cmd>BufferLineCyclePrev<CR>")
