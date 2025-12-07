@@ -30,3 +30,6 @@ map("n","sf",function()
     previewer = false
   })
 end)
+
+-- Blame line
+map("n","gb","<Cmd>Gitsigns blame_line<CR>")
