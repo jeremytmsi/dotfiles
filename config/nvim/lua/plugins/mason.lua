@@ -11,6 +11,7 @@ return {
         "lua_ls",
         "terraformls",
         "ansiblels",
+        "docker_compose_language_service",
       }
     }
   }
