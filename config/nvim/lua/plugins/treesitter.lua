@@ -1,12 +1,22 @@
 return {
   "nvim-treesitter/nvim-treesitter",
   build = ":TSUpdate",
-  opts = {
-    highlight = {
-      enable = true
-    },
-    ensure_installed = {
-      "lua"
+  config = function()
+    require("nvim-treesitter.configs").setup {
+      ensure_installed = {
+        "lua",
+        "dockerfile",
+        "yaml",
+        "hcl",
+        "terraform"
+      },
+
+      highlight = {
+        enable = true
+      },
+
+      sync_install = true,
+      auto_install = true
     }
-  }
+  end
 }
