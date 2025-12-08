@@ -12,6 +12,7 @@ return {
         "terraformls",
         "ansiblels",
         "docker_compose_language_service",
+        "marksman"
       }
     }
   }
