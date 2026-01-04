@@ -3,6 +3,7 @@ return {
   dependencies = {"nvim-tree/nvim-web-devicons"},
   opts = {
     options = {
+      mode = "tabs",
       separator_style = "slant",
       show_close_buffer_icons = false,
       show_close_icon = false
