@@ -9,7 +9,7 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls",
-        "terraformls",
+        "tofu_ls",
         "ansiblels",
         "docker_compose_language_service",
         "marksman"
